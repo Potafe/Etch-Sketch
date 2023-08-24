@@ -1,0 +1,26 @@
+.center {
+    display: flex;
+    margin-left: 48%;
+    gap: 8px;
+}
+
+.gridRow {
+    display: flex;
+    font-size: 9.5px;
+    justify-content: center;
+    align-items: center;
+}
+.cell {
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    margin-right: 2px;
+}
+.hover {
+    background: red;
+}
+
+button {
+    margin-bottom: 20px;
+}
